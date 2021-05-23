@@ -7,7 +7,7 @@ const resolvers = require('./resolver/resolver')
 const cors = require('cors')
 
 //MongoDB Conenction
-mongoose.connect('mongodb+srv://admin:admin@123@cluster0.yye7q.mongodb.net/moviemaker?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://MONGO_USERNAME:PASWWORD@cluster0.yye7q.mongodb.net/moviemaker?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
